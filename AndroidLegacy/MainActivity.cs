@@ -14,6 +14,7 @@ namespace Avalonia.AndroidTestApplication
     [Activity(Label = "Main",
         MainLauncher = true,
         Icon = "@drawable/icon",
+        Theme = "@style/Theme.AppCompat.NoActionBar",
         LaunchMode = LaunchMode.SingleInstance/*,
         ScreenOrientation = ScreenOrientation.Landscape*/)]
     public class MainBaseActivity : AvaloniaActivity
@@ -96,18 +97,6 @@ namespace Avalonia.AndroidTestApplication
             textBox.TextInputOptionsQuery += (s, e) => { e.ContentType = contentType; };
 
             return textBox;
-        }
-    }
-
-    public sealed class AppBuilder : AppBuilderBase<AppBuilder>
-    {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="AppBuilder"/> class.
-        /// </summary>
-        public AppBuilder()
-            : base(new StandardRuntimePlatform(),
-                builder => StandardRuntimePlatformServices.Register(builder.ApplicationType.Assembly))
-        {
         }
     }
 }

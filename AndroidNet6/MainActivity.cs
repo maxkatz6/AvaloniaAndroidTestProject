@@ -4,7 +4,6 @@ using Android.Content.PM;
 using Android.OS;
 using Avalonia.Android;
 using Avalonia.Controls;
-using Avalonia.Markup.Xaml;
 using Avalonia.Media;
 using Avalonia.Styling;
 using Avalonia.Themes.Default;
@@ -14,6 +13,7 @@ namespace Avalonia.AndroidTestApplication
     [Activity(Label = "Main",
         MainLauncher = true,
         Icon = "@drawable/icon",
+        Theme = "@style/Theme.AppCompat.NoActionBar",
         LaunchMode = LaunchMode.SingleInstance/*,
         ScreenOrientation = ScreenOrientation.Landscape*/)]
     public class MainBaseActivity : AvaloniaActivity

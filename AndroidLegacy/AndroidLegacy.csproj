@@ -92,9 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia">
-      <Version>0.10.999-cibuild0018644-beta</Version>
+      <Version>0.10.999-cibuild0018947-beta</Version>
     </PackageReference>
-    <PackageReference Include="Avalonia.Android" Version="0.10.999-cibuild0018644-beta" />
+    <PackageReference Include="Avalonia.Android" Version="0.10.999-cibuild0018947-beta" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

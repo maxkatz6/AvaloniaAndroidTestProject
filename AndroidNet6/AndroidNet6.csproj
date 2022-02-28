@@ -15,15 +15,15 @@
     <DebugSymbols>True</DebugSymbols>
     <RunAOTCompilation>True</RunAOTCompilation>
     <EnableLLVM>True</EnableLLVM>
-    <!--<AndroidEnableProfiledAot>True</AndroidEnableProfiledAot>-->
+    <AndroidEnableProfiledAot>True</AndroidEnableProfiledAot>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <None Remove="Assets\AboutAssets.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.999-cibuild0018644-beta" />
-    <PackageReference Include="Avalonia.Android" Version="0.10.999-cibuild0018644-beta" />
+    <PackageReference Include="Avalonia" Version="0.10.999-cibuild0018947-beta" />
+    <PackageReference Include="Avalonia.Android" Version="0.10.999-cibuild0018947-beta" />
   </ItemGroup>
 </Project>
